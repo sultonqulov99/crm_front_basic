@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <section class="shell">
+
+        <div class="top-nav theme-dark">
+            <div class="logo-container">
+                <a href="#" class="logo">
+                    IT<span>LIVE</span>
+                </a>
+            </div>
+            <div class="content-container">
+                <div id="groupName" class="profil">
+                    <div class="dropdown">
+                        <button id="profil" class="btn btn-secondary dropdown-toggle ms-auto d-flex align-items-center" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-user-circle fs-4 me-2"></i>
+                            Admin
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Profil</a></li>
+                            <li><a class="dropdown-item" href="#">Log Out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="student-lists d-flex">
+            <aside class="logo-container theme-dark">
+                <div class="my-accordion">
+                    <div id="btn" class="my-accordion-item">
+                        <!-- <button class="accor-btn qw active">
+                            O'quvchilar(Jami)
+                        </button> -->
+                    </div>
+                    <div class="my-accordion-item">
+                        <button class="accor-btn">
+                            Guruhlar
+                            <i class="fa-solid fa-angle-down"></i>
+                        </button>
+                        <div id="guruh" class="list-group accor-list list-group-flush bg-transparent">
+                            <!-- <a href="./Davomat-Group.html" class="list-group-item list-group-item-action">Front-End (16:00 - 18:00)</a>
+                            <a href="#" class="list-group-item list-group-item-action">Back-End 10:00 - 12:00</a>
+                            <a href="#" class="list-group-item list-group-item-action">Bootcamp 14:00 - 16:00</a>
+                            <a href="#" class="list-group-item list-group-item-action">Front-End 08:00 - 14:00</a> -->
+                        </div>
+                    </div>
+                    <div class="my-accordion-item">
+                        <button class="accor-btn">
+                            Davomat
+                            <i class="fa-solid fa-angle-down"></i>
+                        </button>
+                        <div id="group" class="list-group accor-list list-group-flush bg-transparent">
+                            <!-- <a href="./Davomat-Group.html" class="list-group-item list-group-item-action">Group #1</a>
+                            <a href="#" class="list-group-item list-group-item-action">Group #2</a>
+                            <a href="#" class="list-group-item list-group-item-action">Group #3</a>
+                            <a href="#" class="list-group-item list-group-item-action">Group #4</a> -->
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <main class="content-container h-90vh">
+                <div class="row p-5">
+                    <div class="col-12">
+                        <table id="thead" class="table text-center border-dark rounded w-100">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Ismi</th>
+                                    <th scope="col">Familiya</th>
+                                    <th scope="col">Telefon</th>
+                                    <th scope="col">Manzil</th>
+                                    <th scope="col">Kurs</th>
+                                    <th scope="col">To'lov</th>
+                                    <th scope="col">Amallar</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody">
+                                <!-- <tr>
+                                    <td>1</td>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>+998901234567</td>
+                                    <td>Gulistan state</td>
+                                    <td>Android</td>
+                                    <td>
+                                        <input type="checkbox">
+                                    </td>
+                                    <td>
+                                        <a href="#" class="text-decoration-none text-success">
+                                            <i class="fa-solid fa-pen"></i>
+                                        </a>
+                                        <a href="#" class="text-decoration-none text-danger">
+                                            <i class="fa-solid fa-trash-can"></i>
+                                        </a>
+                                    </td>
+                                </tr> -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </section>
+
+
+    <script src="./scripts/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/scripts.js"></script>
+    <script src="./scripts/allstudents.js"></script>
+    <script src="./scripts/davomat.js"></script>
+    <script src="./scripts/guruh.js"></script>
+</body>
+
+</html>

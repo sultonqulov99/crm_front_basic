@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section>
+        <div class="home-panel">
+            <form action="" class="in-form text-end">
+                <h5 class="form-title">Add Student</h5>
+                <div class="mb-3 text-start">
+                    <label for="fname" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="fname" placeholder="First Name">
+                </div>
+                <div class="mb-3 text-start">
+                    <label for="lname" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lname" placeholder="Last Name">
+                </div>
+                <div class="mb-3 text-start">
+                    <label for="tel" class="form-label">Telefon</label>
+                    <input type="text" class="form-control" id="tel" placeholder="Telefon">
+                </div>
+                <div class="mb-3 text-start">
+                    <label for="address" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="address" placeholder="Address">
+                </div>
+                <div class="mb-3 text-start">
+                    <select id="courseOption" class="form-select" aria-label="Default select example">
+                        <option selected>Kurs tanlang</option>
+                        <!-- <option value="Web dasturlash">Web dasturlash</option>
+                        <option value="Android">Android</option> -->
+                    </select>
+                </div>
+                <div class="mb-3 text-start">
+                    <select id="guruhOption" class="form-select" aria-label="Default select example">
+                        <option selected>Guruh tanlang</option>
+                        <!-- <option value="1">16:00 - 18:00</option>
+                        <option value="2">08:00 - 10:00</option> -->
+                    </select>
+                </div>
+                <button id="btn" class="btn btn-primary">Save</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="./scripts/student.js"></script>
+    <script src="./scripts/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

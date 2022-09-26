@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section>
+        <div class="home-panel">
+            <form action="" class="in-form text-end">
+                <h5 class="form-title">Add Group</h5>
+                <div class="mb-3 text-start">
+                    <label for="fname" class="form-label">Group name</label>
+                    <input type="text" class="form-control" id="fname" placeholder="group name">
+                </div>
+                <div class="mb-3 text-start">
+                    <select id="option" class="form-select" aria-label="Default select example">
+                        <option selected>Teacher name</option>
+                        <!-- <option value="Web dasturlash">Web dasturlash</option>
+                        <option value="Android">Android</option> -->
+                    </select>
+                </div>
+                <div class="mb-3 text-start">
+                    <select id="option1" class="form-select" aria-label="Default select example">
+                        <option selected>Course change</option>
+                        <!-- <option value="Web dasturlash">Web dasturlash</option>
+                        <option value="Android">Android</option> -->
+                    </select>
+                </div>
+                <div class="mb-3 text-start">
+                    <select id="option2" class="form-select" aria-label="Default select example">
+                        <option selected>Group day</option>
+                        <option value="Toq">Toq</option>
+                        <option value="Juft">Juft</option>
+                    </select>
+                </div>
+                <div class="mb-3 text-start">
+                    <input type="text" class="form-control" id="time" placeholder="Group Date">
+                </div>
+                <button id="btn" class="btn btn-primary">Save</button>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="./scripts/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/group.js"></script>
+</body>
+
+</html>
